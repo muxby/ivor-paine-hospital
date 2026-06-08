@@ -1,10 +1,3 @@
-# API proxy and search files
-api/
-
-# LinkedIn caption
-linkedin-caption.txt
-linkedin-caption*
-
 # Environment and config
 .env
 .env.*
@@ -38,12 +31,10 @@ node_modules/
 Thumbs.db
 Desktop.ini
 
-# Database
-*.sql
+# Database exports
 *.mdf
 *.ldf
 *.bak
-sql/
 
 # Output / exports
 output.html
@@ -57,8 +48,7 @@ __pycache__/
 *.pyo
 .env.py
 
-# Fonts (binary assets)
-fonts/
+# Fonts (tracked manually)
 
 # Misc
 *.zip

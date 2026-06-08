@@ -1,0 +1,23 @@
+Search through real medicine names and prices directly inside a hospital database system. No fake data. No dummy catalogs. Live lookup, live pricing, live prescribing.
+
+We built a complete end-to-end hospital management system powered entirely by a SQL Server database. Every module connects back to structured, relational data with real-time visibility across the entire hospital operation. Here is how it breaks down:
+
+Dashboard. A command center with live KPI cards showing patient counts, bed occupancy, appointment trends, and system health. Weekly appointment charts, complaint severity distributions, and ward occupancy bars. All driven by live SQL queries.
+
+Patient Management. Full patient directory with search, sort, registration, discharge, and bed reassignment. Profile modals with admission history, linked appointments, complaints, treatments, and prescriptions. CSV export for records.
+
+Doctor and Nurse Management. Staff directories with specialty filters, performance ratings, appointment load analysis, and shift scheduling. Each profile ties back to the appointments and treatments tables in the database.
+
+Appointment Scheduling. Table and calendar views with status tracking, doctor and patient filters, and conflict detection on booking. Every appointment links patients, doctors, and purposes into a normalized schedule.
+
+Ward and Bed Management. Ward cards with real-time occupancy percentages, interactive bed maps, and bed assignment forms. Conditional coloring flags wards above 85 percent capacity.
+
+Medicine Search and Prescriptions. Search medicines by real name and see actual prices pulled from an external medicine database. Select a medicine, and it auto-fills the name, ID, and price into a prescription. Add dosage, frequency, duration, and quantity. Add multiple medicines per prescription. Live cost estimation updates as you build the list. Print a professional A4 prescription with medicine table, cost summary, and doctor signature area.
+
+Complaints and Treatments. Log patient complaints with severity badges and one-click resolve. Track treatments with cost display, status filters, and inline notes.
+
+Reports and Analytics. Executive summary with six animated KPI counters. Thirty-plus reports across eight categories including medicine usage, doctor workload, ward utilization, appointment performance, treatment costs, and complaint outcomes. All filterable by date range, doctor, patient, and status. CSV export and print support on every report.
+
+Audit Trail. Every create, update, delete, search, and view action is logged with timestamps, user info, and entity references. Color-coded action badges. Filterable by action type, entity, date range, and searchable across all fields. Full accountability baked into the database layer.
+
+The entire system runs on PHP with Microsoft SQL Server, uses parameterized queries throughout, supports dark mode, responsive design, and real-time search across all entities. Database first. Everything else follows.
