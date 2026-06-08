@@ -1,0 +1,67 @@
+# API proxy and search files
+api/
+
+# LinkedIn caption
+linkedin-caption.txt
+linkedin-caption*
+
+# Environment and config
+.env
+.env.*
+config.local.php
+config.override.php
+*.local.php
+*.override.php
+includes/config.php
+includes/db_config.php
+
+# Dependencies
+vendor/
+node_modules/
+
+# Build / generated
+*.log
+*.tmp
+*.cache
+*.map
+
+# Kiro
+.claude/
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Database
+*.sql
+*.mdf
+*.ldf
+*.bak
+sql/
+
+# Output / exports
+output.html
+*.csv
+*.xlsx
+export_*/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env.py
+
+# Fonts (binary assets)
+fonts/
+
+# Misc
+*.zip
+*.tar.gz
+*.rar
+todo.txt
